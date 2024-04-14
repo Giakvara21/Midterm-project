@@ -750,6 +750,8 @@ a {
 @media (max-width: 768px) {
   .card-parent {
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
   .card-parent-top {
     display: flex;
