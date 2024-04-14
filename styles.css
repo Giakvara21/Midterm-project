@@ -751,6 +751,18 @@ a {
   .card-parent {
     flex-direction: row;
   }
+  .card-parent-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-parent-bottom {
+    flex-direction: column;
+  }
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+  }
   .ads-container {
     flex-direction: column;
   }
