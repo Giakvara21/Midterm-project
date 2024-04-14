@@ -463,7 +463,15 @@ a {
   padding: 30px;
   margin: 0;
 }
-
+.message-button:hover {
+  background-color: green;
+  color: white;
+}
+.call-button:hover {
+  background-color: white;
+  color: green;
+  border: 2px solid #29b24e;
+}
 @media (max-width: 1149px) {
   .internal-saveicon {
     width: 20px;
