@@ -257,71 +257,235 @@ input[type="checkbox"]:checked + label::after {
   justify-content: space-between;
   padding-top: 10px;
 }
-@media (max-width: 1440px) {
-  .footer {
-    width: 100%;
-    margin-top: 50px;
-    background-color: #29b24e;
-    border-radius: 20px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  #footer-top-part {
-    border-bottom: 1px solid #d0d0d0;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
-  }
-  #footer-middle {
-    color: white;
-    font-size: 15px;
-    font-family: Poppins;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #footer-left > ul,
-  a {
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    font-family: Poppins;
-    list-style: none;
-    padding: 0;
-    gap: 10px;
-    margin: 0;
-  }
-  #footer-right > ul,
-  a {
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    font-family: Poppins;
-    list-style: none;
-    padding: 0;
-    gap: 10px;
-    margin: 0;
-  }
-  #creator-name > p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Poppins;
-    color: white;
-    font-size: 10px;
-    padding: 30px;
-    margin: 0;
-  }
+.description-header {
+  font-family: Poppins;
 }
+.ads-container {
+  font-family: Poppins;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.ads-image {
+  width: 40%;
+  height: 50%;
+}
+.ads-image img {
+  width: 100%;
+  height: 715px;
+}
+.ads-description {
+  width: 60%;
+  border-radius: 20px;
+  background-color: white;
+}
+.description-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.description-middletext {
+  font-family: Poppins;
+  padding: 20px;
+}
+.description-middletext > h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.description-middletext > h6 {
+  color: #8e8e8e;
+  margin-bottom: 30px;
+}
+.description-apartments {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid rgb(227, 227, 227);
+  border-top: solid rgb(227, 227, 227);
+}
+.apartment-info {
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.apartment-info-left-top,
+.apartment-info-left-middle,
+.apartment-info-left-bottom,
+.apartment-info-middle,
+.apartment-info-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.second-span {
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 500;
+}
+.first-span {
+  margin-bottom: 5px;
+  color: gray;
+}
+.internal-card-button {
+  font-size: 12px;
+  max-width: 76px;
+  max-height: 30px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  background-color: #29b24e;
+  border-radius: 15px;
+  border: none;
+  top: 23px;
+  left: 23px;
+}
+.monthly-price-green {
+  font-size: 30px;
+  font-weight: bold;
+  color: #29b24e;
+  font-family: Poppins;
+}
+.apartment-price {
+  border-top: solid rgb(227, 227, 227);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.message-button {
+  border: 1px solid #29b24e;
+  padding: 13px 26px 13px 26px;
+  color: #29b24e;
+  border-radius: 12px;
+  font-size: 15px;
+  background-color: white;
+}
+.call-button {
+  border: #29b24e 1px;
+  padding: 15px 30px 15px 30px;
+  border-radius: 12px;
+  background-color: #29b24e;
+  color: white;
+  font-size: 15px;
+}
+.internal-saveicon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 157px;
+  right: 28px;
+  z-index: 1;
+}
+.internal-whitebackground {
+  position: absolute;
+  scale: 0.8;
+  top: 130px;
+  right: 0px;
+}
+.internal-page-card-parent {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #29b24e;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#footer-top-part {
+  border-bottom: 1px solid #d0d0d0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+#footer-middle {
+  color: white;
+  font-size: 15px;
+  font-family: Poppins;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer-left > ul,
+a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-family: Poppins;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+  margin: 0;
+}
+#footer-right > ul,
+a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: Poppins;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+  margin: 0;
+}
+#creator-name > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  color: white;
+  font-size: 10px;
+  padding: 30px;
+  margin: 0;
+}
+
 @media (max-width: 1149px) {
+  .internal-saveicon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 118px;
+    right: 28px;
+    z-index: 1;
+  }
+  .internal-whitebackground {
+    position: absolute;
+    scale: 0.8;
+    top: 90px;
+    right: 0px;
+  }
+  .internal-page-card-parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    row-gap: 50px;
+  }
   label {
     font-size: 10px;
   }
@@ -398,6 +562,27 @@ input[type="checkbox"]:checked + label::after {
   }
 }
 @media (max-width: 1024px) {
+  .internal-page-card-parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .internal-saveicon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 128px;
+    right: 28px;
+    z-index: 1;
+  }
+  .internal-whitebackground {
+    position: absolute;
+    scale: 0.8;
+    top: 100px;
+    right: 0px;
+  }
   .info-container {
     display: flex;
     flex-direction: column;
@@ -530,58 +715,19 @@ input[type="checkbox"]:checked + label::after {
     margin: 0;
   }
 }
-@media (max-width: 1000px) {
-  .container {
-    width: 100%;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-  }
-  .info-container {
-    width: 600px;
-  }
-  .hero-img-container {
-    height: 200px;
-  }
-  label {
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: 500;
-  }
-  .card-parent {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  .card-parent-top {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-  }
-  .card-parent-bottom {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .card-box {
-    width: 50vh;
-    margin-bottom: 30px;
-  }
-  .saveicon {
-    top: 165px;
-  }
-  .whitebackground {
-    top: 138px;
-  }
-}
+
 @media (max-width: 993px) {
   .hero-img-container {
     height: 500px;
   }
   .header {
     font-size: 12px;
+  }
+  .internal-page-card-parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .card-box {
     width: 40vh;
@@ -597,9 +743,31 @@ input[type="checkbox"]:checked + label::after {
   .card-parent {
     flex-direction: row;
   }
+  .ads-container {
+    flex-direction: column;
+  }
+  .ads-image {
+    width: 90%;
+  }
+  .ads-description {
+    width: 100%;
+  }
   .wrapper {
     padding-left: 5px;
     padding-right: 5px;
+  }
+  #home-internal-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .internal-page-card-parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  ul li a {
+    font-size: 14px;
   }
   .saveicon {
     top: 130px;
@@ -665,15 +833,119 @@ input[type="checkbox"]:checked + label::after {
     margin: 0;
   }
 }
-
+@media (max-width: 608px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 425px) {
   .wrapper {
     gap: 10px;
     padding: 0;
     margin: 0;
   }
+  .ads-description {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+  .ads-image {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .ads-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .ads-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .description-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-container-title {
+    font-size: 25px;
+  }
+  .first-span {
+    color: #8e8e8e;
+  }
+  .second-span {
+    font-weight: 500;
+    text-align: end;
+  }
+  .apartment-info-left-top,
+  .apartment-info-left-middle,
+  .apartment-info-left-bottom,
+  .apartment-info-middle,
+  .apartment-info-left-top,
+  .apartment-info-left-middle,
+  .apartment-info-left-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .description-middletext {
+    font-family: Poppins;
+  }
+  .description-middletext > h1 {
+    font-weight: bold;
+  }
+  .description-middletext > h6 {
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: rgb(157, 155, 155);
+  }
+  .description-apartments {
+    font-family: Poppins;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   .header {
     flex-direction: row;
+  }
+  #home-internal-header {
+    display: none;
+  }
+  .internal-page-card-parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .apartment-price {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .message-button,
+  .call-button {
+    width: 100%;
+  }
+  .buttons > a {
+    align-items: center;
+  }
+  .monthly-price {
+    padding-top: 20px;
+    padding-left: 20px;
   }
   .nav ul li {
     display: none;
@@ -794,5 +1066,19 @@ input[type="checkbox"]:checked + label::after {
     font-size: 10px;
     padding: 30px;
     margin: 0;
+  }
+  .internal-saveicon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 148px;
+    right: 28px;
+    z-index: 1;
+  }
+  .internal-whitebackground {
+    position: absolute;
+    scale: 0.8;
+    top: 120px;
+    right: 0px;
   }
 }
