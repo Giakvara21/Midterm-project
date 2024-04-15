@@ -170,7 +170,6 @@ input[type="checkbox"]:checked + label::after {
 }
 .searchbar-icon {
   position: absolute;
-  /* margin-right: 30px; */
   margin-top: 46px;
   margin-right: 10px;
 }
@@ -1120,5 +1119,16 @@ a {
     scale: 0.8;
     top: 120px;
     right: 0px;
+  }
+}
+@media (max-width: 375px) {
+  .card-parent {
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .description-header {
+    justify-content: space-evenly;
+    padding: 0;
   }
 }
